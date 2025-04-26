@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohammed Yamin Salman - Portfolio</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="cursor"></div>
+
+    <main class="container">
+      <header>
+        <div class="logo">Mohammed Yamin Salman</div>
+        <nav>
+          <a href="#about" aria-label="About Section">About</a>
+          <a href="#projects" aria-label="Projects Section">Projects</a>
+          <a href="#contact" aria-label="Contact Section">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="gradient-blob"></div>
+        <div class="gradient-blob-2"></div>
+
+        <div class="hero-content">
+          <h1 class="gradient-text">Myst25</h1>
+          <p class="subtitle">Developer & Designer</p>
+          <p class="description">
+            22-year-old passionate developer from Hyderabad
+          </p>
+        </div>
+      </section>
+      <section class="socials">
+        <h2>Connect with Me</h2>
+        <div class="social-icons">
+          <a
+        href="https://github.com/Myst25"
+        target="_blank"
+        aria-label="GitHub"
+          >
+        <img src="./assets/github-128.webp" alt="GitHub Icon" />
+          </a>
+          <a
+        href="https://gitlab.com/Myst25"
+        target="_blank"
+        aria-label="GitLab"
+          >
+        <img src="./assets/gitlab-logo-simple-128.webp alt="GitLab Icon" />
+          </a>
+          <a
+        href="https://instagram.com/Myst25"
+        target="_blank"
+        aria-label="Instagram"
+          >
+        <img src="./assets/Circled_Instagram_svg-1024.webp" alt="Instagram Icon" />
+          </a>
+          <a
+        href="https://t.me/Myst25"
+        target="_blank"
+        aria-label="Telegram"
+          >
+        <img src="./assets/" alt="Telegram Icon" />
+          </a>
+        </div>
+      </section>
+      </section>
+      <section id="about" class="glass-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <p>
+            Known as Myst25 across platforms, I'm focused on creating beautiful
+            and functional web experiences.
+          </p>
+          <div class="skills-grid">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">Python</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="glass-section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Project One</h3>
+            <p>Description of your first project</p>
+            <div class="project-links">
+              <a href="#" class="button">Live Demo</a>
+              <a href="#" class="button">GitHub</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Description of your second project</p>
+            <div class="project-links">
+              <a href="#" class="button">Live Demo</a>
+              <a href="#" class="button">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="glass-section">
+        <h2>Get In Touch</h2>
+        <form id="contact-form" action="/submit-form" method="POST">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="button">Send Message</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>© 2025 Mohammed Yamin Salman. All rights reserved.</p>
+      </footer>
+    </main>
+
+    <script src="./src/index.js"></script>
+  </body>
+</html>
